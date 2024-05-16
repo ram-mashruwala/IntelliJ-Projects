@@ -77,7 +77,7 @@ public class Game {
                 headRow++;
             } else if (move.equals("A")) {
                 headCol--;
-            } else if (move.equals("D")) {
+            } else {
                 headCol++;
             }
             if (board[headRow][headCol] != null) {
